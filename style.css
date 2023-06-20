@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: #007bff;
+    font-family: Arial;
+}
+.polje-s-pitanjem {
+    background-color: #fff;
+    width: 80%;
+    max-width: 800px;
+    height: 90%;
+    margin: 100px auto;
+    border: #000000 solid 3px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.naslov-kviza {
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: #000000 solid 2px;
+    padding-bottom: 10px;
+}
+.pitanje {
+    margin-top: 10px;
+    text-align: center;
+}
+.provjeri {
+    margin-top: 10px;
+    text-align: center;
+}
+.odgovor {
+    display:block;
+    margin: 10px auto;
+    padding: 10px auto;
+    width: 70%;
+    height: 40px;
+    background-color: #fff;
+    border: #000000 solid 2px;
+    color: #000000;
+    border-radius: 5px;
+}
+.odgovor:hover{
+    background-color: #3d3b3b;
+    border: #e7e7e7 solid 2px;
+    color: #fff;
+    cursor: pointer;
+}
+.sljedece-pitanje{
+    display: block;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px auto;
+    width: 50%;
+    height: 44px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+}
+.sljedece-pitanje:hover{
+    background-color: #0051ff;
+    cursor: pointer;
+}
+.tocan{
+    background-color: green;
+    color: #fff;
+}
+.netocan{
+    background-color: red;
+    color: #fff;
+}
+.pocetni-div{
+    background-color: #fff;
+    width: 80%;
+    max-width: 800px;
+    height: 90%;
+    margin: 100px auto;
+    border: #000000 solid 3px;
+    border-radius: 10px;
+}
+.kraj-kviza {
+    background-color: #fff;
+    width: 80%;
+    max-width: 800px;
+    height: 90%;
+    margin: 100px auto;
+    border: #000000 solid 3px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.zapocni-kviz{
+    display: block;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px auto;
+    width: 50%;
+    height: 44px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+}
+.zapocni-kviz:hover{
+    background-color: #0051ff;
+    cursor: pointer;
+}

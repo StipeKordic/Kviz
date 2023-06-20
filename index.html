@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kviz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "pocetni-div" class="pocetni-div">
+        <h1 class="naslov-kviza">Kviz općeg znanja</h1>
+        <h3 class="provjeri">Provjeri svoje znanje!</h3>
+        <button class="zapocni-kviz" onclick="zapocniKviz(); odaberiPitanje();">Započni kviz</button>
+    </div>
+    <div id="polje-s-pitanjem" class="polje-s-pitanjem">
+        <h1 class="naslov-kviza">Kviz općeg znanja</h1>
+        <h3 class="pitanje">Ovo je pitanje</h3>
+        <button class="odgovor odgovor1" onclick="jeLiTocan(0);">Odgovor 1</button>
+        <button class="odgovor odgovor2" onclick="jeLiTocan(1);">Odgovor 2</button>
+        <button class="odgovor odgovor3" onclick="jeLiTocan(2);">Odgovor 3</button>
+        <button class="odgovor odgovor4" onclick="jeLiTocan(3);">Odgovor 4</button>
+        <button id="odgovor" class="sljedece-pitanje" onclick="odaberiPitanje();">Dalje</button>
+    </div>
+    <div id="kraj-kviza" class="kraj-kviza">
+        <h3 id="poruka-na-kraju" class="provjeri">Znanje ti je loše</h3>
+        <h3 id="odgovoreno-pitanja" class="provjeri">Tocno odgovorenih pitanja:</h3>
+        <button class="zapocni-kviz" onclick="zapocniKviz(); odaberiPitanje();">Pokušaj ponovo!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
